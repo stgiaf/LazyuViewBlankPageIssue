@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:lazyViewBlankPageIssue="using:LazyViewBlankPageIssue"
+             x:Class="LazyViewBlankPageIssue.MainPage"
+             Appearing="MainPage_OnAppearing">
+
+        <lazyViewBlankPageIssue:CustomLazyView x:TypeArguments="lazyViewBlankPageIssue:LazyLoadedView"
+                                               x:Name="ExampleView"
+                                               Grid.Row="1" />
+
+</ContentPage>
